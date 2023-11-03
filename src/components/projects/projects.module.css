@@ -1,0 +1,135 @@
+/* .container {
+} */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+  margin: 4rem 0;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.project.inView {
+  /* Estilos que deseas aplicar cuando el proyecto está en la vista */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+
+.img {
+  object-fit: fill;
+  border-radius: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.source {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--secondary);
+  width: max-content;
+  padding: 0.3rem 1rem;
+  color: var(--tertiary);
+  border-radius: 20px 10px 10px 20px;
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  font-family: var(--font-primary);
+}
+
+.desc {
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 640px) {
+  .imgContainer {
+    height: 380px;
+  }
+}
+
+@media (min-width: 768px) {
+  .imgContainer {
+    height: 380px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    gap: 18rem;
+  }
+  .project {
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+  .project:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
+  .project:nth-child(2n) .source {
+    left: 0;
+  }
+  .imgContainer {
+    height: 250px;
+    flex: 1;
+  }
+  .content {
+    flex: 1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects {
+    margin: 12rem 0;
+    gap: 20rem;
+  }
+  .project {
+    gap: 6rem;
+  }
+
+  .source {
+    font-size: 1.3rem;
+  }
+
+  .imgContainer {
+    flex: 1;
+    height: 370px;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .desc {
+    line-height: 2.1rem;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,117 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  /* max-height: 674px; */
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.previousButton,
+.nextButton {
+  position: absolute;
+  top: 41%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+}
+
+.previousButton {
+  left: -26px;
+}
+
+.nextButton {
+  right: -26px;
+}
+
+.icon {
+  fill: var(--icon);
+}
+
+.info {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.thumbnails {
+  display: none;
+}
+
+.thumbnail {
+  width: 9rem;
+  height: 7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: opacity, transform 350ms ease;
+}
+
+.thumbnail:hover {
+  opacity: 0.7;
+  transform: scale(1.04);
+}
+
+@media (min-width: 768px) {
+  .image {
+    /* height: auto; */
+  }
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .imageContainer {
+    flex-direction: row-reverse;
+    gap: 4.5rem;
+  }
+
+  .previousButton,
+  .nextButton {
+    display: none;
+  }
+
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .info {
+    order: 3;
+    margin-top: 1rem;
+    width: 86%;
+    margin-left: auto;
+    justify-content: space-around;
+  }
+}

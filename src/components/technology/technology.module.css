@@ -1,0 +1,70 @@
+.technology {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  color: white;
+  border: none;
+}
+
+.html {
+  background-color: rgb(106, 190, 205);
+}
+
+.css {
+  background-color: rgb(62, 84, 163);
+}
+
+.js {
+  background-color: rgb(207, 99, 144);
+}
+
+.react {
+  background-color: rgb(25, 0, 136);
+}
+
+.tailwind {
+  background-color: rgb(140, 1, 175);
+}
+
+.sass{
+  background-color: rgb(204, 28, 145)
+}
+
+.next{
+  background-color: rgb(18, 0, 85)
+}
+
+.ts{
+  background-color: rgb(2, 48, 255)
+}
+
+.material{
+  background-color: rgb(139, 9, 107)
+}
+
+.strapi{
+  background-color: rgb(218, 28, 3)
+}
+
+.stripe{
+  background-color: rgb(87, 151, 3)
+}
+
+.redux{
+  background-color: #593d88;
+}
+
+.bootstrap{
+  background-color: rgb(122, 67, 182);
+}
+
+.remix{
+  background-color: darksalmon;
+}
+
+.sanity{
+  background-color: #f36458;
+}

@@ -1,0 +1,75 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .carouselContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thumbnails {
+    display: none;
+  }
+  
+  .thumbnail {
+    width: 7rem;
+    height: 5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    max-height: 674px;
+    /* height: 280px; */
+    object-fit: contain;
+    border-radius: .5rem;
+  }
+  
+  .previousButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .previousButton {
+    left: -26px;
+  }
+  
+  .nextButton {
+    right: -26px;
+  }
+  
+  .icon{
+    fill: var(--icon);
+  }
+  
+  @media (min-width: 768px) {
+    .image {
+      height: auto;
+  }
+    .thumbnails {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+.container {
+  width: 68px;
+  height: 28px;
+  border: 1px solid var(--toggle);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  position: relative;
+  cursor: pointer;
+  background-color: #00000085;
+}
+
+.icon {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.ball {
+  width: 22px;
+  height: 22px;
+  background-color: var(--primary-soft);
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  transition: transform 0.5s ease;
+}
+
+[data-theme="dark"] .ball {
+  transform: translateX(38px);
+}

@@ -1,0 +1,33 @@
+.containerWithBg {
+  background-color: var(--footer-bg);
+  margin-top: 6rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .container {
+  }
+}

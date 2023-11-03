@@ -1,0 +1,31 @@
+.returnContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.returnContainer:hover .returnTitle {
+  color: #f39c12;
+}
+
+@keyframes iconAnimation {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+}
+
+.returnContainer:hover svg {
+  animation: iconAnimation 1s infinite;
+}
+
+.returnTitle {
+  height: 20px;
+  font-size: 1.2rem;
+}
