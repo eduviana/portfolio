@@ -12,7 +12,7 @@ const About = () => {
           <Image
             src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             fill={true}
-            alt=""
+            alt="ilustración de personas utilizando notebooks y celulares"
             className={styles.img}
           />
           <div className={styles.imgText}>
@@ -43,8 +43,8 @@ const About = () => {
               ¡Hola, soy Eduardo! Originario Provincia de Córdoba, Argentina,
               tengo 30 años y soy Analista de Sistemas graduado de la
               Institución Cervantes. Durante mis estudios, tuve la oportunidad
-              de trabajar como auditor de software legal en Activa Soluciones.
-              <br />
+              de trabajar como auditor de software legal en Activa Soluciones.<br /> <br />
+              
               Mi rol consistía en llevar a cabo visitas programadas a diversas
               empresas para auditar y verificar las licencias de software
               instaladas en sus sistemas informáticos, abarcando tanto
@@ -104,7 +104,7 @@ const About = () => {
               marcó un punto crucial en mi trayectoria. Empecé a realizar
               cursos gratuitos que encontré en línea, y fue en este
               proceso de autoexploración que descubrí mi pasión por el
-              desarrollo web. <br />
+              desarrollo web. <br /><br />
               Impulsado por mi interés, me lancé a aprender más sobre el
               desarrollo web a través de cursos en línea. Tomé cursos tanto
               gratuitos en YouTube como cursos pagos en plataformas como Udemy.
@@ -113,18 +113,18 @@ const About = () => {
               los frameworks fue con Angular, una tecnología que valoro por su
               robustez y su amplio conjunto de herramientas. Sin embargo, a
               medida que me sumergía más en Angular, encontré que la complejidad
-              del boilerplate requerido me resultaba desafiante. <br />
+              del boilerplate requerido me resultaba desafiante. <br /><br />
               Fue en este momento que decidí explorar React. Investigué su
               filosofía y su enfoque, y me cautivó de inmediato. Encontré una
               mayor comodidad y satisfacción al trabajar con esta biblioteca.
               Los cursos y las lecciones que tomaba sobre React eran mucho más
-              accesibles y aplicables en ejercicios y proyectos personales.<br /> Lo
+              accesibles y aplicables en ejercicios y proyectos personales.<br /><br /> Lo
               que más me atrajo de React es su filosofía adaptable. Mientras que
               Angular tiende a ofrecer una solución única para un problema,
               React aboga por múltiples enfoques para un mismo desafío. Ninguna
               de estas soluciones es inherentemente superior o inferior a la
               otra, pero después de explorar ambas opciones, definitivamente me
-              siento más a gusto con la flexibilidad que ofrece React. <br />
+              siento más a gusto con la flexibilidad que ofrece React. <br /><br />
               Este viaje de autodescubrimiento y aprendizaje continuo me ha
               empoderado con habilidades versátiles y una perspectiva sólida en
               el mundo del desarrollo web. Mi pasión y compromiso con la mejora
@@ -149,7 +149,7 @@ const About = () => {
               constante y nutrir un ambiente enriquecedor de intercambio de
               conocimientos. Estoy firmemente convencido de que la sinergia de
               trabajar en equipo supera con creces la eficacia de operar de
-              manera autónoma. <br />
+              manera autónoma. <br /><br />
               Creo que el trabajo en equipo va a brindarme la oportunidad de no
               solo abordar tareas técnicas de manera más eficiente, sino también
               de enriquecer mi comprensión y soluciones a través del intercambio
@@ -157,7 +157,7 @@ const About = () => {
               recibir consejo de colegas experimentados es inestimable para
               abordar desafíos. Al mismo tiempo, anhelo contribuir con mi
               conocimiento y habilidades, brindando asistencia a mis compañeros
-              de equipo cuando sea necesario. <br />
+              de equipo cuando sea necesario. <br /><br />
               Un aspecto que valoro profundamente es la construcción de
               relaciones y amistades dentro del equipo. Creo que trabajar codo a
               codo con colegas no solo fomenta un ambiente positivo y motivador,
@@ -165,7 +165,7 @@ const About = () => {
               duraderos. Esta camaradería no solo beneficia el rendimiento
               actual del equipo, sino que también sienta las bases para un
               legado de habilidades y conexiones que se transmiten a las
-              generaciones futuras de colaboradores. <br />
+              generaciones futuras de colaboradores. <br /><br />
               Mi objetivo es contribuir de manera significativa a proyectos
               innovadores y ambiciosos, mientras sigo nutriendo mis habilidades
               técnicas y personales. Al sumergirme en un entorno de equipo
@@ -187,20 +187,20 @@ const About = () => {
               esferas de la industria, nos encontramos con personas que optan
               por no compartir sus conocimientos o experiencias, ya sea por
               orgullo personal o por la preocupación de trabajar en exceso.{" "}
-              <br />
+              <br /><br />
               Personalmente, he atravesado esta barrera en mi propio camino de
               desarrollo, y esto me ha impulsado a tomar una determinación
               profunda. Mi compromiso es ser una fuerza transformadora, un
               catalizador de cambio que desafía este enfoque individualista. Mi
               objetivo es ofrecer mi mano y conocimiento a quienes se sienten
               abrumados, a aquellos que luchan solos en la búsqueda de
-              soluciones y aprendizaje. <br />
+              soluciones y aprendizaje. <br /><br />
               Mi aportación se centra en crear un entorno de colaboración y
               apoyo, donde cada uno pueda sentirse seguro al buscar orientación
               y consejo. Mi misión es romper las barreras de la soledad y el
               desánimo, y en su lugar, fomentar una comunidad donde los
               problemas se aborden juntos y los éxitos se celebren
-              conjuntamente. <br />
+              conjuntamente. <br /><br />
               En mi visión, la programación no debe ser un camino solitario y
               desafiante, sino un viaje compartido hacia la maestría y la
               innovación. Desde compartir consejos prácticos hasta guiar a
@@ -209,7 +209,7 @@ const About = () => {
               firmemente que cuando todos contribuimos con nuestro saber y
               apoyo, no solo elevamos nuestras habilidades individuales, sino
               que también enriquecemos y fortalecemos la comunidad en su
-              conjunto. <br />
+              conjunto. <br /><br />
               En resumen, mi aporte se basa en cambiar la narrativa, de manera
               que ningún desarrollador se sienta solo o desamparado. Mi
               propósito es derribar las barreras del ego y la reticencia a
@@ -217,7 +217,7 @@ const About = () => {
               ayuda mutua sea la norma, donde las dificultades se enfrenten con
               coraje colectivo y donde la pasión por el aprendizaje y el
               crecimiento se nutra con la ayuda desinteresada de aquellos que
-              han recorrido el camino antes. <br />
+              han recorrido el camino antes. <br /><br />
               Con respecto al apartado técnico mi compromiso no radica sólo en
               que el código funcione sino en su calidad. Puedo aportar una
               combinación de disciplina y enfoque ordenado en cada proyecto en

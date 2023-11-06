@@ -9,7 +9,7 @@
   font-weight: bold;
   border: none;
   outline: none;
-  padding: 1.25rem 2.3rem;
+  padding: 1rem 2rem;
   border-radius: 0.5rem 1rem;
   position: relative;
   z-index: 1;
@@ -49,6 +49,6 @@
     margin: unset;
   }
   .container {
-    padding: 1.25rem 2rem;
+    padding: 1rem 2rem;
   }
 }

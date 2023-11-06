@@ -1,7 +1,7 @@
 export const items = [
   {
     id: 20,
-    title: "Movix - Películas y Series",
+    title: "Movix",
     liveSiteUrl: "https://movix-nu-six.vercel.app/",
     githubUrl: "https://github.com/eduviana/movix",
     source: "YouTube",
