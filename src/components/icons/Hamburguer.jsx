@@ -2,7 +2,7 @@
 const Hamburguer = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    height="1.5em"
+    height="1.8rem"
     viewBox="0 0 448 512"
     {...props}
   >

@@ -16,15 +16,19 @@
 }
 
 .title {
-  font-size: 2.6rem;
-  background: linear-gradient(to bottom, var(--bg-gradient-first), var(--bg-gradient-second));
+  font-size: 3rem;
+  background: linear-gradient(
+    to bottom,
+    var(--bg-gradient-first),
+    var(--bg-gradient-second)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .description {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 300;
   line-height: 2.3rem;
 }
@@ -51,7 +55,11 @@
 .titleSection {
   font-size: 2.8rem;
   margin-bottom: 3rem;
-  background: linear-gradient(to bottom, var(--bg-gradient-first), var(--bg-gradient-second));
+  background: linear-gradient(
+    to bottom,
+    var(--bg-gradient-first),
+    var(--bg-gradient-second)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -78,7 +86,7 @@
   }
 
   .projects {
-    padding: 4rem;
+    padding:  1rem 4rem;
   }
 }
 
@@ -90,7 +98,7 @@
   }
 
   .title {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .img {

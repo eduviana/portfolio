@@ -5,8 +5,9 @@
 .container {
   background: var(--primary-soft);
   color: var(--tertiary);
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: var(--font-leagueSpartan);
+  font-weight: 400;
   border: none;
   outline: none;
   padding: 1rem 2rem;

@@ -1,5 +1,3 @@
-
-
 "use client";
 import { items } from "@/data";
 import styles from "./projects.module.css";
@@ -36,7 +34,7 @@ const Project = ({ item }) => {
         />
       </div>
       <div className={styles.content}>
-        <span className={styles.source}>{`Origen: ${item.source}`}</span>
+        {/* <span className={styles.source}>{`Origen: ${item.source}`}</span> */}
         <h1 className={styles.title}>{item.title}</h1>
         <p className={styles.desc}>{item.desc}</p>
         <Button text="Ver más" url={`${item.id}`} />

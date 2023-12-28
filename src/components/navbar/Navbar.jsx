@@ -6,6 +6,7 @@ import Hamburguer from "../icons/Hamburguer";
 import { useContext, useEffect, useLayoutEffect, useState } from "react";
 import Close from "../icons/Close";
 import { DarkModeContext } from "@/context/DarkModeContext";
+import Image from "next/image";
 
 const links = [
   {
@@ -40,11 +41,20 @@ const Navbar = () => {
   };
 
   return (
-    <div className={styles.prueba}>
+    <div className={styles.background}>
       <div className="container">
         <div className={styles.container}>
-          <Link href="/" className={styles.logo}>
-            Eduardo Viana
+          <Link href="/" className={styles.logoContainer}>
+            <Image
+              src="/profile.jpg"
+              width={70}
+              height={70}
+              alt="foto de perfil"
+              className={styles.profile}
+            />
+            <p href="/" className={styles.name}>
+              Eduardo Viana
+            </p>
           </Link>
           <div className={styles.menu}>
             <DarkModeToggle toggleDarkMode={toggleDarkMode} />
