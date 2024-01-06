@@ -40,7 +40,7 @@ const About = () => {
               fué creciendo con el tiempo. Esto me obligó a adquirir nuevos
               conocimientos ya que los clientes empezaron a solicitarme
               servicios que yo no brindaba en un principio. */}
-              ¡Hola, soy Eduardo! Originario Provincia de Córdoba, Argentina,
+              ¡Hola, soy Eduardo! Originario de la  Provincia de Córdoba, Argentina,
               tengo 30 años y soy Analista de Sistemas graduado de la
               Institución Cervantes. Durante mis estudios, tuve la oportunidad
               de trabajar como auditor de software legal en Activa Soluciones.<br /> <br />
@@ -211,7 +211,7 @@ const About = () => {
               que también enriquecemos y fortalecemos la comunidad en su
               conjunto. <br /><br />
               En resumen, mi aporte se basa en cambiar la narrativa, de manera
-              que ningún desarrollador se sienta solo o desamparado. Mi
+              que ningún compañero de trabajo se sienta solo o desamparado. Mi
               propósito es derribar las barreras del ego y la reticencia a
               colaborar, y en su lugar, construir un ecosistema en el que la
               ayuda mutua sea la norma, donde las dificultades se enfrenten con

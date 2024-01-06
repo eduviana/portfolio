@@ -68,8 +68,7 @@
 .projects {
   border-radius: 50px;
   background: var(--neumorphism);
-  box-shadow: 20px 20px 60px var(--box-shadow-first),
-    -20px -20px 60px var(--box-shadow-second);
+  box-shadow: 0px 0px 2px 0px white;
   padding: 2rem 0.5rem;
 }
 

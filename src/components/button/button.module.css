@@ -22,10 +22,7 @@
 .small{
   padding: 1rem;
 }
-.container:hover {
-  color: #000000;
-  
-}
+
 .container::after {
   content: "";
   background: var(--secondary-soft);
