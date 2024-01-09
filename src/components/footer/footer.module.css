@@ -1,6 +1,7 @@
 .containerWithBg {
   background-color: var(--footer-bg);
   margin-top: 6rem;
+  z-index: 100;
 }
 
 .container {

@@ -1,6 +1,28 @@
 export const items = [
   {
-    id: 20,
+    id: 21,
+    title: "Kass Tienda",
+    liveSiteUrl: "https://kass-tienda.vercel.app/",
+    githubUrl: "https://github.com/eduviana/kassTienda",
+    source: "Personal",
+    desc: "Sitio web para una tienda de accesorios y productos tecnológicos con pasarela de pagos",
+    explanation:
+      "El dueño de un negocio de articulos de tecnología me plantió la necesidad de crear un sitio web en el cual él mismo pueda agregar, modificar y eliminar la información de los productos de las distintas secciones que posee la página./n/n Además me comentó que se siente cómodo trabajando con hojas de cálculo al estilo Excel, por lo que luego de investigar posibles soluciones que satisfagan estos requerimientos, le sugerí realizar la base de datos en una hoja de cálculo de Google utilizando la Api de Googlesheets./n/n El documento cuanta con varias páginas, en donde cada página es una categoría de productos. Mediante esta división logramos que sea más fácil de ubicar un producto y realizar las modificaciones necesarias. El sitio utiliza el servicio de Stripe para lo que respecta a los pagos y también el paquete use-shopping-cart proveído por el mismo servicio para administrar el carrito de compras y la seguridad del mismo.",
+    level: "intermediate",
+    technologies: ["next", "tailwind"],
+    feedback:
+      "Este proyecto representa mi primera incursión en un proyecto real, donde asumí la responsabilidad de comprender los requisitos del cliente, explorar diversas soluciones y establecer un diálogo constante tanto con el propietario como con los futuros usuarios./n/n Este proceso me llevó a investigar y determinar las tecnologías más adecuadas para abordar de manera integral todos los requisitos necesarios para garantizar el funcionamiento del sistema según las especificaciones del cliente./n/n En el desarrollo de esta iniciativa, adquirí experiencia en la implementación de la API de Google Sheets, integrándolo eficazmente en un entorno de Next.js. Además, opté por utilizar el paquete de npm denominado use-shopping-cart proporcionado por Stripe, el cual ofrece funcionalidades robustas para la gestión del carrito de compras./n/n Cabe destacar que existen dos enfoques para la implementación de este paquete: del lado del cliente y del lado del servidor. Elegí el enfoque del lado del servidor, ya que es la opción más segura y recomendada. Además, al estar basado en el framework de Next.js consideré apropiado complementar los server components con esta funcionalidad serverless, mejorando así la eficiencia y seguridad del sistema.",
+    image: "/projects/fullstack/kassTienda/kass_1.png",
+    images: [
+      "/projects/fullstack/kassTienda/kass_1.png",
+      "/projects/fullstack/kassTienda/kass_2.png",
+      "/projects/fullstack/kassTienda/kass_3.png",
+      "/projects/fullstack/kassTienda/kass_4.png",
+      "/projects/fullstack/kassTienda/kass_5.png",
+    ],
+  },
+  {
+    id: 1,
     title: "Movix",
     liveSiteUrl: "https://movix-nu-six.vercel.app/",
     githubUrl: "https://github.com/eduviana/movix",
@@ -21,7 +43,7 @@ export const items = [
     ],
   },
   {
-    id: 30,
+    id: 2,
     title: "Flair Store",
     liveSiteUrl: "https://sanity-ecommerce-orcin.vercel.app/",
     githubUrl: "https://github.com/eduviana/Sanity-Ecommerce",
@@ -43,7 +65,7 @@ export const items = [
     ],
   },
   {
-    id: 21,
+    id: 3,
     title: "Prueba Técnica - Libros",
     liveSiteUrl: "https://challenge-books-midudev.vercel.app/",
     githubUrl: "https://github.com/eduviana/Challenge-Books-Midudev",
@@ -63,7 +85,7 @@ export const items = [
     ],
   },
   {
-    id: 9,
+    id: 4,
     title: "Admin UI - Recharts",
     liveSiteUrl: "https://react-dashboard-recharts-nff7.vercel.app/",
     githubUrl: "https://github.com/eduviana/React-Dashboard-Recharts",
@@ -84,7 +106,7 @@ export const items = [
     ],
   },
   {
-    id: 10,
+    id: 5,
     title: "Car Showcase",
     liveSiteUrl: "https://car-showcase-seven-nu.vercel.app/",
     githubUrl: "https://github.com/eduviana/Car-Showcase",
@@ -104,7 +126,7 @@ export const items = [
     ],
   },
   {
-    id: 11,
+    id: 6,
     title: "Evo Gym",
     liveSiteUrl: "https://gym-typescript-one.vercel.app/",
     githubUrl: "https://github.com/eduviana/gym-typescript",
@@ -125,7 +147,7 @@ export const items = [
   },
 
   {
-    id: 12,
+    id: 7,
     title: "Liverr",
     liveSiteUrl: "https://liverr.vercel.app/",
     githubUrl: "https://github.com/eduviana/liverr",
@@ -147,7 +169,7 @@ export const items = [
     ],
   },
   {
-    id: 22,
+    id: 8,
     title: "Hardware 360",
     liveSiteUrl: "https://hardware360-remix.vercel.app/",
     githubUrl: "https://github.com/eduviana/hardware360-remix",
@@ -168,7 +190,7 @@ export const items = [
     ],
   },
   {
-    id: 13,
+    id: 9,
     title: "Fashion E-commerce",
     liveSiteUrl: "https://www.google.com",
     githubUrl: "https://github.com/eduviana/Fashion-Online-Client",
@@ -190,7 +212,7 @@ export const items = [
     ],
   },
   {
-    id: 14,
+    id: 10,
     title: "Dashboard",
     liveSiteUrl: "https://react-dashboard-lyart.vercel.app/",
     githubUrl: "https://github.com/eduviana/react-dashboard",
@@ -211,7 +233,7 @@ export const items = [
     ],
   },
   {
-    id: 1,
+    id: 11,
     title: "Easybank Landing Page",
     liveSiteUrl: "https://easybank-landing-page-phi-lyart.vercel.app/",
     githubUrl: "https://github.com/eduviana/Easybank-Landing-Page",
@@ -230,7 +252,7 @@ export const items = [
     ],
   },
   {
-    id: 2,
+    id: 12,
     title: "Ecommerce Product Page",
     liveSiteUrl: "https://ecommerce-product-page-rho-seven.vercel.app/",
     githubUrl: "https://github.com/eduviana/Ecommerce-Product-Page",
@@ -249,7 +271,7 @@ export const items = [
     ],
   },
   {
-    id: 3,
+    id: 13,
     title: "News Home Page",
     liveSiteUrl: "https://news-homepage-main-g8l3jn4bt-eduviana.vercel.app/",
     githubUrl: "https://github.com/eduviana/news-homepage-main",
@@ -265,7 +287,7 @@ export const items = [
     images: ["/projects/frontendMentor/news/news_1.png"],
   },
   {
-    id: 4,
+    id: 14,
     title: "Rest Country",
     liveSiteUrl:
       "https://rest-country-api-with-color-theme-switcher-fupf6x4t2-eduviana.vercel.app/",
@@ -286,7 +308,7 @@ export const items = [
     ],
   },
   {
-    id: 5,
+    id: 15,
     title: "Testimonial Grid",
     liveSiteUrl:
       "https://testimonial-grid-section-main-jnauizfda-eduviana.vercel.app/",
@@ -303,7 +325,7 @@ export const items = [
     images: ["/projects/frontendMentor/testimonialGrid/testimonial_1.png"],
   },
   {
-    id: 6,
+    id: 16,
     title: "Fylo dark theme landing page",
     liveSiteUrl:
       "https://filo-dark-theme-landing-page-master-nmeoll70x-eduviana.vercel.app/",
@@ -325,7 +347,7 @@ export const items = [
     ],
   },
   {
-    id: 7,
+    id: 17,
     title: "Loopstudios landing page",
     liveSiteUrl:
       "https://loopstudios-landing-page-main-r8k6s4vrh-eduviana.vercel.app/",
@@ -347,7 +369,7 @@ export const items = [
     ],
   },
   {
-    id: 8,
+    id: 18,
     title: "Room Homepage",
     liveSiteUrl: "https://room-homepage-ashy-delta.vercel.app/",
     githubUrl: "https://github.com/eduviana/Room-Homepage",
@@ -363,7 +385,7 @@ export const items = [
     images: ["/projects/frontendMentor/room/room_1.png"],
   },
   {
-    id: 17,
+    id: 19,
     title: "Game Store",
     liveSiteUrl: "https://game-store-nextjs-api.vercel.app/",
     githubUrl: "https://github.com/eduviana/GameStore-FreeToGame-API",
@@ -384,7 +406,7 @@ export const items = [
     ],
   },
   {
-    id: 18,
+    id: 20,
     title: "YouTube Clone",
     liveSiteUrl: "https://ev-YouTube-app.netlify.app/",
     githubUrl: "https://github.com/eduviana/YouTube-app",
@@ -402,4 +424,5 @@ export const items = [
       "/projects/personales/youtubeClone/youtubeClone_2.png",
     ],
   },
+ 
 ];
