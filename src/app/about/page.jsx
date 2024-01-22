@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Button from "@/components/button/Button";
 import GoBack from "@/components/goBack/GoBack";
+import ButtonFirst from "@/components/buttons/ButtonFirst/ButtonFirst";
 
 const About = () => {
   return (
@@ -230,7 +230,7 @@ const About = () => {
               fluida y eficiente en el camino hacia la innovación.
             </p>
           </div>
-          <Button url="/contact" text="Contáctame" />
+          <ButtonFirst url="/contact" text="Contáctame" />
         </div>
       </div>
     </div>

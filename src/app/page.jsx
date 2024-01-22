@@ -1,8 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Hero from "public/hero.png";
-import Button from "@/components/button/Button";
 import Projects from "@/components/projects/Projects";
+import ButtonFirst from "@/components/buttons/ButtonFirst/ButtonFirst";
+
 
 export default function Home() {
   return (
@@ -13,11 +14,11 @@ export default function Home() {
             Desarrollador Web Frontend
           </h1>
           <p className={styles.description}>
-            ¡Bienvenido/a! En este sitio encontrarás tanto mi información personal como los trabajos que he realizado, por lo que podrás conocer mi nivel de programación.
+            ¡Bienvenido/a a mi sitio web!. Aquí encontrarás tanto mi información personal como los trabajos que he realizado, por lo que podrás conocer mi nivel de programación.
           </p>
           <div className={styles.buttonsContainer}>
-          <Button url="/about" text="Sobre mí" size="small"/>
-          <Button url="#portfolio" text="Proyectos" size="small"/>
+          <ButtonFirst url="/about" text="Sobre mí" size="small"/>
+          <ButtonFirst url="#portfolio" text="Proyectos" size="small"/>
           </div>
         </div>
         <div className={styles.item}>

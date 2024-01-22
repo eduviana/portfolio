@@ -1,14 +1,12 @@
 import Link from "next/link";
-import styles from "./button.module.css";
+import styles from "./ButtonFirst.module.css";
 
-const Button = ({ text, url, size, type, disabled }) => {
+const ButtonFirst = ({ text, url, type, disabled }) => {
   if (type !== "submit") {
     return (
       <Link href={url}>
         <button
-          className={`${styles.container} ${
-            size === "small" ? styles.small : ""
-          }`}
+          className={styles.container}
         >
           {text}
         </button>
@@ -23,4 +21,4 @@ const Button = ({ text, url, size, type, disabled }) => {
   }
 };
 
-export default Button;
+export default ButtonFirst;

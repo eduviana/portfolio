@@ -2,8 +2,8 @@
 import { items } from "@/data";
 import styles from "./projects.module.css";
 import Image from "next/image";
-import Button from "../button/Button";
 import { useInView } from "react-intersection-observer";
+import ButtonFirst from "../buttons/ButtonFirst/ButtonFirst";
 
 const Projects = () => {
   return (
@@ -37,7 +37,7 @@ const Project = ({ item }) => {
         {/* <span className={styles.source}>{`Origen: ${item.source}`}</span> */}
         <h1 className={styles.title}>{item.title}</h1>
         <p className={styles.desc}>{item.desc}</p>
-        <Button text="Ver más" url={`${item.id}`} />
+        <ButtonFirst text="Ver más" url={`${item.id}`} />
       </div>
     </div>
   );

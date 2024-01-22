@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { useForm, ValidationError } from "@formspree/react";
 import { useRouter } from "next/navigation";
-import Button from "@/components/button/Button";
+import ButtonFirst from "@/components/buttons/ButtonFirst/ButtonFirst";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mpzgpajr");
@@ -69,7 +69,7 @@ const Contact = () => {
                 field="message"
                 errors={state.errors}
               />
-              <Button text="Enviar" type="submit" disabled={state.submitting} />
+              <ButtonFirst text="Enviar" type="submit" disabled={state.submitting} />
             </form>
           </div>
         )}
