@@ -29,6 +29,8 @@ export const getTechnologyClass = (technology) => {
     return "remix";
   } else if (technology === "sanity") {
     return "sanity";
+  } else if (technology === "shadcn") {
+    return "shadcn"
   }
   // Si no hay una clase específica, devuelve la clase por defecto
   return "technology";

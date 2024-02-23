@@ -2,16 +2,16 @@
   position: relative;
   padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
+  color: var(--background-color);
   z-index: 2;
 }
 
 .btnSecond {
-  border: 3px solid;
+  border: 2px solid;
 }
 
 .btnSecond:hover {
-  background-color: #001a2b;
+  background-color: var(--background-color);
   box-shadow: 0 0 20px #17a2ff;
   border-color: #17a2ff;
 }
@@ -51,6 +51,6 @@
 
 @media (min-width:768px) {
   .btn {
-    padding: 20px 30px;
+    padding: 14px 24px;
   }
 }

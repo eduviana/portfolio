@@ -34,13 +34,30 @@ export const items = [
     technologies: ["react", "sass", "redux"],
     feedback:
       "Realizando este proyecto aprendí que por más que estemos utilizando un manejador de estados no es necesario ni recomendado que todos los estados residan en él, sino sólo los que necesitamos que estén disponibles en toda la aplicación. El resto de estados pueden existir en cada componente, ya que sólo en ese lugar es requerido./n/nDe esta manera mantenemos en el estado global lo mínimo necesario y no abusamos de dicha tecnología. También me quedo con la experiencia de haber utilizado varios paquetes de npm tales como:/n/n - dayjs para formatear fechas/n/n - react-circular-progressbar para representar la calificación de una película o serie/n/n - react-lazy-load-image para realizar la carga perezosa de las imágenes/n/n - react-player para la reproducción de video/n/n - react-select para crear el filtro por género más eficientemente.",
-    image: "/projects/fullstack/movix/movix_1.png",
+    image: "/projects/fullstack/movix/movix_11.png",
     images: [
       "/projects/fullstack/movix/movix_1.png",
       "/projects/fullstack/movix/movix_3.png",
       "/projects/fullstack/movix/movix_4.png",
       "/projects/fullstack/movix/movix_5.png",
     ],
+  },
+  {
+    id: 22,
+    title: "Gamehub",
+    liveSiteUrl: "",
+    githubUrl: "",
+    source: "Personal",
+    desc: "Plataforma que permite visualizar y realizar transmisiones en vivo.",
+    explanation:
+      "Este proyecto fue desarrollado siguiendo un curso proporcionado por el instructor CodeWithAntonio en YouTube, con el propósito de crear una plataforma similar a Twitch que permita a los usuarios actuar como espectadores y/o streamers./n/n Para gestionar la autenticación de usuarios a través de Google, implementamos el servicio de Clerk, aprovechando un webhook para registrar la información del usuario en nuestra base de datos. Además, empleamos el paquete Livekit para construir todos los elementos relacionados con los streams, salas de transmisión, y el chat./n/n En el contexto de un streamer, una vez que se ha creado una cuenta o iniciado sesión, se puede establecer una conexión que proporcionará la información necesaria para integrarla con programas compatibles, como OBS Studio. El streamer cuenta con la capacidad de personalizar tanto la información del stream como su perfil de usuario. Además, se le brinda la opción de configurar el chat de su propio stream, permitiéndole activar o desactivar funciones como desactivar el chat, habilitar el modo lento y el modo solo suscriptores. Este nivel de flexibilidad y control permite a los streamers adaptar la experiencia según sus preferencias y necesidades específicas./n/n Este proyecto, a diferencia del resto de proyectos de mi portafolio, no posee un link para visitar el sitio online debido a que utiliza servicios de pago para funcionar, por lo que solo funciona en desarrollo. Por lo tanto decidí subir un video demostrativo.",
+    level: "advanced",
+    technologies: ["next", "shadcn"],
+    feedback:
+      "Abordé este proyecto de gran complejidad, que superaba mis habilidades actuales, con la determinación de desafiarme y aprender a manejar un nivel de complejidad superior al que había enfrentado anteriormente. Se trata de un proyecto extenso y complicado, que demanda dedicación, constancia y atención meticulosa para evitar errores. Aunque conté con la guía de un instructor, la posibilidad de cometer errores es inherente, especialmente dado que el código no es de mi autoría y la resolución de problemas puede resultar desafiante./n/n A pesar de los desafíos, la experiencia de desarrollo fue sumamente positiva por varios motivos. En primer lugar, adquirí conocimientos significativos y adopté buenas prácticas que aplicaré en futuros proyectos. En segundo lugar, este proyecto contribuyó en gran medida a fortalecer mi mentalidad. Aprendí a abordar proyectos aparentemente difíciles y complejos dividiéndolos en partes más pequeñas, resolviendo cada problema de manera incremental y evitando preocuparme en exceso por lo que está por venir o lo que falta. La clave fue centrarme en el módulo o las actividades que se estaban desarrollando en ese momento, sin sobreanalizar el futuro. Este enfoque resultó ser fundamental para mantener la claridad y el control a lo largo del proceso de desarrollo.",
+    image: "/projects/fullstack/gamehub/gamehub_4.png",
+    images: [],
+    video: "https://www.youtube.com/embed/U6XBxhTLSuU",
   },
   {
     id: 2,
@@ -56,7 +73,7 @@ export const items = [
     feedback:
       "En este proyecto aprendí muchas cosas. En cuanto al backend se utilizó Sanity, un potente administrador de contenido que nos permite crear los modelos y productos de una manera sencilla y ágil. Lo que me gustó de trabajar con esta tecnología es que, comparándolo con Strapi, la interfaz para agregar productos es mucho más limpia y simple./n/nCon respecto al frontend se utilizó la librería radix-ui y sanity-ui, de las cuales utilizamos ciertos componentes específicos de cada una. El resto de los estilos están construídos con Tailwind, en donde aprendí a crear un tema personalizado./n/nOtra librería que se implementa es use-shopping-cart, proveída por Stripe para manejar los productos del carrito de compras. La funcionalidad que más me gustó de este proyecto es la forma en que se manejan los filtros, dado que éstos son componentes hijos que, al seleccionar un filtro, modifican algún valor internamente y estos cambios deben actualizar la información del componente padre y este flujo de hijo a padre no es la manera correcta o natural de trabajar en React. Para no tener que complicar el código para solucionar este problema ni tampoco relegar todo el problema con más states y effects todo se realiza a través de parámetros en la url. Un componente hijo setea en la url la query y el componente padre está pendiente de estos cambios y de esta manera se dispara la re-renderización del/los elementos del DOM correspondientes.",
 
-    image: "/projects/fullstack/sanity/sanity_1.png",
+    image: "/projects/fullstack/sanity/sanity_5.png",
     images: [
       "/projects/fullstack/sanity/sanity_1.png",
       "/projects/fullstack/sanity/sanity_2.png",
@@ -424,5 +441,4 @@ export const items = [
       "/projects/personales/youtubeClone/youtubeClone_2.png",
     ],
   },
- 
 ];

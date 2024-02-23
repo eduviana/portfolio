@@ -1,7 +1,7 @@
 .container {
   display: block;
-  margin-top: 8rem;
-  margin-bottom: 16rem;
+  margin-top: 6rem;
+  margin-bottom: 11rem;
 }
 
 .item {
@@ -17,6 +17,7 @@
 
 .title {
   font-size: 3rem;
+  line-height: 3rem;
   background: linear-gradient(
     to bottom,
     var(--bg-gradient-first),
@@ -66,13 +67,13 @@
 }
 
 .projects {
-  border-radius: 50px;
+  /* border-radius: 50px;
   background: var(--neumorphism);
   box-shadow: 0px 0px 2px 0px white;
-  padding: 2rem 0.5rem;
+  padding: 2rem 0.5rem; */
 }
 
-@media (min-width: 425px) {
+/* @media (min-width: 425px) {
   .projects {
     padding: 1rem;
   }
@@ -87,7 +88,7 @@
   .projects {
     padding:  1rem 4rem;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   .container {
@@ -97,7 +98,7 @@
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .img {

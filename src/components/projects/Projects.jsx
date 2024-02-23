@@ -34,7 +34,6 @@ const Project = ({ item }) => {
         />
       </div>
       <div className={styles.content}>
-        {/* <span className={styles.source}>{`Origen: ${item.source}`}</span> */}
         <h1 className={styles.title}>{item.title}</h1>
         <p className={styles.desc}>{item.desc}</p>
         <ButtonFirst text="Ver más" url={`${item.id}`} />

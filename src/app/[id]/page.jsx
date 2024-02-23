@@ -27,6 +27,7 @@ const Details = ({ params }) => {
     technologies,
     feedback,
     images,
+    video,
   } = project;
 
   const explanationWithLineBreaks = explanation
@@ -50,11 +51,24 @@ const Details = ({ params }) => {
       <GoBack />
       <h3 className={styles.title}>{title}</h3>
       <div className={styles.links}>
-        <ButtonSecond text="Sitio Online" href={liveSiteUrl} />
+        {liveSiteUrl && <ButtonSecond text="Sitio Online" href={liveSiteUrl} />}
         <ButtonSecond text="Repositorio" href={githubUrl} />
       </div>
       <div className={styles.content}>
-        <Carousel images={images} technologies={technologies} level={level} />
+        {images.length > 0 && (
+          <Carousel images={images} technologies={technologies} level={level} />
+        )}
+        {video && (
+          <iframe
+            className={styles.video}
+            title={`YouTube Video - ${title}`}
+            
+            src={video}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        )}
         <div className={styles.textsContainer}>
           <div className={styles.objetiveContainer}>
             <h4 className={styles.objetive}>Objetivo</h4>
