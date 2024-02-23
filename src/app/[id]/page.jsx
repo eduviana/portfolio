@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Carousel from "@/components/carousel/Carousel";
 import GoBack from "@/components/goBack/GoBack";
 import ButtonSecond from "@/components/buttons/ButtonSecond/ButtonSecond";
+import Technology from "@/components/technology/Technology";
 
 const getData = (id) => {
   const itemData = items.find((item) => item.id === Number(id));
@@ -62,7 +63,6 @@ const Details = ({ params }) => {
           <iframe
             className={styles.video}
             title={`YouTube Video - ${title}`}
-            
             src={video}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

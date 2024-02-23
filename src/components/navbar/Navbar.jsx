@@ -66,7 +66,7 @@ const Navbar = () => {
             {isMenuOpen && (
               <div className={styles.menuOpened}>
                 <Close
-                  fill="black"
+                  fill={isDarkMode ? "white" : "black"}
                   className={styles.close}
                   onClick={() => setIsMenuOpen(false)}
                 />
