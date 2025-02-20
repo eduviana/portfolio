@@ -1,11 +1,33 @@
 export const items = [
   {
+    id: 23,
+    title: "Apex - Sporote",
+    liveSiteUrl: "",
+    githubUrl: "",
+    source: "Trabajo autónomo",
+    desc: "Sitio web que permite gestionar reclamos de los usuarios y visualizar la información en tablas y gráficos",
+    explanation:
+      "Desarrollar una plataforma que permita a los operarios de un call center registrar y consultar incidencias a través de un formulario interactivo y una tabla que muestra los reportes almacenados en MongoDB./n/n Por otro lado, incorpora un segundo formulario y una tabla especializada para la gestión de seguimientos y adelantos, diseñados específicamente para los supervisores. Además, la aplicación ofrece gráficos dinámicos que facilitan la visualización de estadísticas relevantes, y su arquitectura optimizada garantiza un rendimiento excepcional mediante un renderizado eficiente y una experiencia de usuario fluida",
+    level: "intermediate",
+    technologies: ["next", "tailwind", "mongo"],
+    feedback:
+      "Trabajar de manera autónoma en este proyecto para la empresa APEX me permitió mejorar significativamente mi comunicación con el cliente, en este caso, los gerentes de la empresa. A través de reuniones y un constante ida y vuelta, pude comprender sus necesidades, analizar el sistema que utilizaban y proponer soluciones acordes, seleccionando las herramientas de software y arquitecturas más adecuadas para el caso./n/n  Además, esta experiencia me permitió notar un detalle importante sobre el hosting en planes gratuitos de Vercel. Inicialmente, ejecutaba las solicitudes de datos (fetch) del lado del servidor, pero al notar que esto generaba latencias significativas debido al estado standby del servidor en el plan gratuito, decidí mover los fetchs al lado del cliente. Este ajuste mejoró notablemente el rendimiento del sitio, evitando demoras en la respuesta del servidor y optimizando métricas clave como el Largest Contentful Paint (LCP) en Lighthouse de Google./n/n Fue un proceso muy enriquecedor tanto a nivel técnico como en la interacción con el cliente, lo que reforzó mis habilidades en la toma de decisiones y adaptación a los requerimientos del proyecto.",
+    image: "/projects/fullstack/apex/apex-1.png",
+    images: [
+      "/projects/fullstack/apex/apex-1.png",
+      "/projects/fullstack/apex/apex-2.png",
+      "/projects/fullstack/apex/apex-3.png",
+      "/projects/fullstack/apex/apex-4.png",
+      "/projects/fullstack/apex/apex-5.png",
+    ],
+  },
+  {
     id: 21,
     title: "Kass Tienda",
     liveSiteUrl: "https://kass-tienda.vercel.app/",
     githubUrl: "https://github.com/eduviana/kassTienda",
     source: "Personal",
-    desc: "Sitio web para una tienda de accesorios y productos tecnológicos con pasarela de pagos",
+    desc: "Sitio web para una tienda de accesorios y productos tecnológicos con pasarela de pagos.",
     explanation:
       "El dueño de un negocio de articulos de tecnología me plantió la necesidad de crear un sitio web en el cual él mismo pueda agregar, modificar y eliminar la información de los productos de las distintas secciones que posee la página./n/n Además me comentó que se siente cómodo trabajando con hojas de cálculo al estilo Excel, por lo que luego de investigar posibles soluciones que satisfagan estos requerimientos, le sugerí realizar la base de datos en una hoja de cálculo de Google utilizando la Api de Googlesheets./n/n El documento cuanta con varias páginas, en donde cada página es una categoría de productos. Mediante esta división logramos que sea más fácil de ubicar un producto y realizar las modificaciones necesarias. El sitio utiliza el servicio de Stripe para lo que respecta a los pagos y también el paquete use-shopping-cart proveído por el mismo servicio para administrar el carrito de compras y la seguridad del mismo.",
     level: "intermediate",

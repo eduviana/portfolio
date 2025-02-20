@@ -30,7 +30,9 @@ export const getTechnologyClass = (technology) => {
   } else if (technology === "sanity") {
     return "sanity";
   } else if (technology === "shadcn") {
-    return "shadcn"
+    return "shadcn";
+  } else if (technology === "mongo") {
+    return "mongo";
   }
   // Si no hay una clase específica, devuelve la clase por defecto
   return "technology";
