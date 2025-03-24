@@ -31,9 +31,9 @@ const Carousel = ({ images, technologies, level }) => {
       <div className={styles.imageContainer}>
         <Image
           src={selectedImage}
-          width="0"
-          height="0"
-          sizes="50vw"
+          width={800}          
+          height={500}
+          // sizes="50vw"
           alt="Carousel"
           className={styles.image}
           priority

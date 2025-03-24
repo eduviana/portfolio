@@ -15,10 +15,15 @@
   gap: 1.5rem;
 }
 
-.image {
+/* .image {
   width: 100%;
   height: auto;
-  /* max-height: 674px; */
+  object-fit: contain;
+  border-radius: 0.5rem;
+} */
+.image {
+  width: 1000px;
+  height: 660px;
   object-fit: contain;
   border-radius: 0.5rem;
 }
@@ -26,18 +31,18 @@
 .previousButton,
 .nextButton {
   position: absolute;
-  top: 41%;
+  top: 48%;
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
 }
 
 .previousButton {
-  left: -26px;
+  left: -38px;
 }
 
 .nextButton {
-  right: -26px;
+  right: -38px;
 }
 
 .icon {
@@ -117,8 +122,9 @@
   .info {
     order: 3;
     margin-top: 1rem;
-    width: 86%;
+    width: 81%;
     margin-left: auto;
+    margin-right: 1rem;
     justify-content: space-around;
   }
 }

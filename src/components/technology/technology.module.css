@@ -29,46 +29,53 @@
   background-color: rgb(140, 1, 175);
 }
 
-.sass{
-  background-color: rgb(204, 28, 145)
+.sass {
+  background-color: rgb(204, 28, 145);
 }
 
-.next{
-  background-color: rgb(18, 0, 85)
+.next {
+  background-color: rgb(18, 0, 85);
 }
 
-.ts{
-  background-color: rgb(2, 48, 255)
+.ts {
+  background-color: rgb(2, 48, 255);
 }
 
-.material{
-  background-color: rgb(139, 9, 107)
+.material {
+  background-color: rgb(139, 9, 107);
 }
 
-.strapi{
-  background-color: rgb(218, 28, 3)
+.strapi {
+  background-color: rgb(218, 28, 3);
 }
 
-.stripe{
-  background-color: rgb(87, 151, 3)
+.stripe {
+  background-color: rgb(87, 151, 3);
 }
 
-.redux{
+.redux {
   background-color: #593d88;
 }
 
-.bootstrap{
+.bootstrap {
   background-color: rgb(122, 67, 182);
 }
 
-.remix{
+.remix {
   background-color: darksalmon;
 }
 
-.sanity{
+.sanity {
   background-color: #f36458;
 }
 
 .mongo {
-  background-color: rgb(11, 102, 35); /* Verde oscuro, similar al logo de MongoDB */
+  background-color: rgb(11, 102, 35);
+}
+.clerk {
+  background-color: rgb(255, 94, 77); /* Rojo coral */
+}
+
+.prisma {
+  background-color: rgb(3, 135, 102); /* Verde esmeralda */
 }

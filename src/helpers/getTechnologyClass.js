@@ -33,6 +33,10 @@ export const getTechnologyClass = (technology) => {
     return "shadcn";
   } else if (technology === "mongo") {
     return "mongo";
+  } else if (technology === "clerk") {
+    return "clerk"
+  } else if (technology === "prisma") {
+    return "prisma"
   }
   // Si no hay una clase específica, devuelve la clase por defecto
   return "technology";

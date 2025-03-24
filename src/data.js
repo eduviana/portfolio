@@ -5,7 +5,7 @@ export const items = [
     liveSiteUrl: "",
     githubUrl: "",
     source: "Trabajo autónomo",
-    desc: "Sitio web que permite gestionar reclamos de los usuarios y visualizar la información en tablas y gráficos",
+    desc: "Sitio web que permite gestionar reclamos de los usuarios y visualizar la información en tablas y gráficos.",
     explanation:
       "Desarrollar una plataforma que permita a los operarios de un call center registrar y consultar incidencias a través de un formulario interactivo y una tabla que muestra los reportes almacenados en MongoDB./n/n Por otro lado, incorpora un segundo formulario y una tabla especializada para la gestión de seguimientos y adelantos, diseñados específicamente para los supervisores. Además, la aplicación ofrece gráficos dinámicos que facilitan la visualización de estadísticas relevantes, y su arquitectura optimizada garantiza un rendimiento excepcional mediante un renderizado eficiente y una experiencia de usuario fluida",
     level: "intermediate",
@@ -22,7 +22,7 @@ export const items = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     title: "Kass Tienda",
     liveSiteUrl: "https://kass-tienda.vercel.app/",
     githubUrl: "https://github.com/eduviana/kassTienda",
@@ -44,7 +44,27 @@ export const items = [
     ],
   },
   {
-    id: 1,
+    id: 24,
+    title: "Linktree-Clone",
+    liveSiteUrl: "https://linktree-clone-gray.vercel.app/",
+    githubUrl: "https://github.com/eduviana/linktree-clone",
+    source: "Youtube",
+    desc: "Clon moderno y personalizable de Linktree para centralizar enlaces sociales y profesionales con diseño minimalista.",
+    explanation:
+      "Plataforma full-stack que permite a los usuarios crear perfiles personalizados con enlaces a redes sociales, portafolios y proyectos destacados. Desarrollada con Next.js para aprovechar renderizado estático y optimización SEO, integra Clerk para autenticación segura con multi-factor y gestión de sesiones, y shadcn/ui para construir componentes accesibles y estilizados con sistema de temas./n/n El backend utiliza Prisma como ORM para interactuar con una base de datos PostgreSQL, permitiendo escalabilidad y consultas eficientes. Los perfiles se gestionan dinámicamente a través de un CMS personalizado (no CMS externo), donde los usuarios pueden actualizar su biografía, enlaces y preferencias de tema (light/dark mode) sin modificar el código. El diseño prioriza performance: animaciones CSS nativas para transiciones suaves, carga progresiva de imágenes optimizadas con <Image> de Next.js, y un 100% en accesibilidad WCAG gracias a los componentes base de shadcn.",
+    level: "intermediate",
+    technologies: ["next", "tailwind", "clerk", "prisma"],
+    feedback:
+      "Realizando este curso, lo más valioso que me llevo es la metodología utilizada para organizar la estructura de archivos y carpetas./n/n Esta metodología se basa en crear carpetas con la sintaxis (nombre de carpeta) dentro del directorio app. Al hacer esto, dichas carpetas no son reconocidas como páginas, sino como una forma de agruparlas./n/n Dentro de cada una de estas carpetas, se crea una carpeta components, donde se organizan los componentes exclusivos de esa sección o funcionalidad. Además, cada componente tiene su propia carpeta, que contiene:/n/n - Un archivo .tsx para el componente./n - Un archivo types.ts para el tipado de datos./n - Un archivo form.ts si se trata de un formulario./n - Un archivo data.ts para información estática si es necesario./n/n También se crea un archivo index.ts en la carpeta components para exportar todos los componentes que contiene. Dentro de cada componente, se sigue la misma lógica, creando un index.ts que lo exporta./n/n Gracias a esta estructura, las rutas de importación son más cortas y fáciles de leer, mejorando la organización y mantenibilidad del código.",
+    image: "/projects/fullstack/linktreeclone/linktreeclone-2.webp",
+    images: [
+      "/projects/fullstack/linktreeclone/linktreeclone-1.webp",
+      "/projects/fullstack/linktreeclone/linktreeclone-2.webp",
+      "/projects/fullstack/linktreeclone/linktreeclone-3.webp",
+    ],
+  },
+  {
+    id: 21,
     title: "Movix",
     liveSiteUrl: "https://movix-nu-six.vercel.app/",
     githubUrl: "https://github.com/eduviana/movix",
@@ -65,7 +85,7 @@ export const items = [
     ],
   },
   {
-    id: 22,
+    id: 20,
     title: "Gamehub",
     liveSiteUrl: "",
     githubUrl: "",
@@ -82,7 +102,7 @@ export const items = [
     video: "https://www.youtube.com/embed/U6XBxhTLSuU",
   },
   {
-    id: 2,
+    id: 19,
     title: "Flair Store",
     liveSiteUrl: "https://sanity-ecommerce-orcin.vercel.app/",
     githubUrl: "https://github.com/eduviana/Sanity-Ecommerce",
@@ -104,7 +124,7 @@ export const items = [
     ],
   },
   {
-    id: 3,
+    id: 18,
     title: "Prueba Técnica - Libros",
     liveSiteUrl: "https://challenge-books-midudev.vercel.app/",
     githubUrl: "https://github.com/eduviana/Challenge-Books-Midudev",
@@ -124,7 +144,7 @@ export const items = [
     ],
   },
   {
-    id: 4,
+    id: 17,
     title: "Admin UI - Recharts",
     liveSiteUrl: "https://react-dashboard-recharts-nff7.vercel.app/",
     githubUrl: "https://github.com/eduviana/React-Dashboard-Recharts",
@@ -145,7 +165,7 @@ export const items = [
     ],
   },
   {
-    id: 5,
+    id: 16,
     title: "Car Showcase",
     liveSiteUrl: "https://car-showcase-seven-nu.vercel.app/",
     githubUrl: "https://github.com/eduviana/Car-Showcase",
@@ -165,7 +185,7 @@ export const items = [
     ],
   },
   {
-    id: 6,
+    id: 15,
     title: "Evo Gym",
     liveSiteUrl: "https://gym-typescript-one.vercel.app/",
     githubUrl: "https://github.com/eduviana/gym-typescript",
@@ -186,7 +206,7 @@ export const items = [
   },
 
   {
-    id: 7,
+    id: 14,
     title: "Liverr",
     liveSiteUrl: "https://liverr.vercel.app/",
     githubUrl: "https://github.com/eduviana/liverr",
@@ -208,7 +228,7 @@ export const items = [
     ],
   },
   {
-    id: 8,
+    id: 13,
     title: "Hardware 360",
     liveSiteUrl: "https://hardware360-remix.vercel.app/",
     githubUrl: "https://github.com/eduviana/hardware360-remix",
@@ -229,7 +249,7 @@ export const items = [
     ],
   },
   {
-    id: 9,
+    id: 12,
     title: "Fashion E-commerce",
     liveSiteUrl: "https://www.google.com",
     githubUrl: "https://github.com/eduviana/Fashion-Online-Client",
@@ -251,7 +271,7 @@ export const items = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Dashboard",
     liveSiteUrl: "https://react-dashboard-lyart.vercel.app/",
     githubUrl: "https://github.com/eduviana/react-dashboard",
@@ -272,7 +292,7 @@ export const items = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     title: "Easybank Landing Page",
     liveSiteUrl: "https://easybank-landing-page-phi-lyart.vercel.app/",
     githubUrl: "https://github.com/eduviana/Easybank-Landing-Page",
@@ -291,7 +311,7 @@ export const items = [
     ],
   },
   {
-    id: 12,
+    id: 9,
     title: "Ecommerce Product Page",
     liveSiteUrl: "https://ecommerce-product-page-rho-seven.vercel.app/",
     githubUrl: "https://github.com/eduviana/Ecommerce-Product-Page",
@@ -310,7 +330,7 @@ export const items = [
     ],
   },
   {
-    id: 13,
+    id: 8,
     title: "News Home Page",
     liveSiteUrl: "https://news-homepage-main-g8l3jn4bt-eduviana.vercel.app/",
     githubUrl: "https://github.com/eduviana/news-homepage-main",
@@ -326,7 +346,7 @@ export const items = [
     images: ["/projects/frontendMentor/news/news_1.png"],
   },
   {
-    id: 14,
+    id: 7,
     title: "Rest Country",
     liveSiteUrl:
       "https://rest-country-api-with-color-theme-switcher-fupf6x4t2-eduviana.vercel.app/",
@@ -347,7 +367,7 @@ export const items = [
     ],
   },
   {
-    id: 15,
+    id: 6,
     title: "Testimonial Grid",
     liveSiteUrl:
       "https://testimonial-grid-section-main-jnauizfda-eduviana.vercel.app/",
@@ -364,7 +384,7 @@ export const items = [
     images: ["/projects/frontendMentor/testimonialGrid/testimonial_1.png"],
   },
   {
-    id: 16,
+    id: 5,
     title: "Fylo dark theme landing page",
     liveSiteUrl:
       "https://filo-dark-theme-landing-page-master-nmeoll70x-eduviana.vercel.app/",
@@ -386,7 +406,7 @@ export const items = [
     ],
   },
   {
-    id: 17,
+    id: 4,
     title: "Loopstudios landing page",
     liveSiteUrl:
       "https://loopstudios-landing-page-main-r8k6s4vrh-eduviana.vercel.app/",
@@ -408,7 +428,7 @@ export const items = [
     ],
   },
   {
-    id: 18,
+    id: 3,
     title: "Room Homepage",
     liveSiteUrl: "https://room-homepage-ashy-delta.vercel.app/",
     githubUrl: "https://github.com/eduviana/Room-Homepage",
@@ -424,7 +444,7 @@ export const items = [
     images: ["/projects/frontendMentor/room/room_1.png"],
   },
   {
-    id: 19,
+    id: 2,
     title: "Game Store",
     liveSiteUrl: "https://game-store-nextjs-api.vercel.app/",
     githubUrl: "https://github.com/eduviana/GameStore-FreeToGame-API",
@@ -445,7 +465,7 @@ export const items = [
     ],
   },
   {
-    id: 20,
+    id: 1,
     title: "YouTube Clone",
     liveSiteUrl: "https://ev-YouTube-app.netlify.app/",
     githubUrl: "https://github.com/eduviana/YouTube-app",
