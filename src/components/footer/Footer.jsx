@@ -43,7 +43,7 @@ const Footer = () => {
               />
             </a>
 
-            <a
+            {/* <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Footer = () => {
               height={35}
               className={styles.icon}
             />
-            </a>
+            </a> */}
 
             
 
