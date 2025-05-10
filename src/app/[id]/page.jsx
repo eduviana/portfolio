@@ -31,6 +31,8 @@ const Details = ({ params }) => {
     video,
   } = project;
 
+  console.log(project, "EEEEEEEEEE")
+
   const explanationWithLineBreaks = explanation
     .split("/n")
     .map((line, index) => (

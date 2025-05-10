@@ -1,5 +1,26 @@
 export const items = [
   {
+    id: 25,
+    title: "Vivarium",
+    liveSiteUrl: "",
+    githubUrl: "",
+    source: "Trabajo autónomo",
+    desc: "Sitio web para un vivero con panel administrativo y Mercadopago integrado.",
+    explanation:
+      "Este proyecto consiste en el desarrollo de un sitio web para un vivero, solicitado por un cliente que necesitaba contar con una plataforma propia para exhibir y gestionar sus productos. El objetivo principal era permitirle publicar, editar y eliminar productos de forma sencilla a través de un panel administrativo, al cual se accede mediante una página de login con validación de usuario./n/n Uno de los requerimientos específicos fue incluir en la página principal una sección destacada bajo el título “Productos destacados”. Esta sección permite al cliente seleccionar, desde el listado de productos ya cargados en el sistema, aquellos que desea resaltar en la home, justo debajo del hero. De esta manera, puede promocionar fácilmente los artículos que más le interesa vender en cada momento./n/n Inicialmente, el sitio contaba con la integración de MercadoPago para concretar ventas directamente desde la web. Sin embargo, debido a que el modelo de negocio actual del cliente funciona bajo demanda, surgió el riesgo de que se efectúen compras de productos no disponibles. Mientras trabajamos en una solución que permita automatizar y asegurar el stock disponible, la funcionalidad de pago fue temporalmente deshabilitada. En su lugar, se implementó un botón de “Consultar” que redirige al WhatsApp del vivero, facilitando el contacto directo entre cliente y comprador./n/n El sitio está desarrollado con Next.js, utilizando CSS nativo para los estilos, NextAuth para la autenticación de usuarios y MySQL como base de datos. Las imágenes de los productos se alojan en Cloudinary, lo que permite una gestión eficiente y optimizada del contenido multimedia.",
+    level: "intermediate",
+    technologies: ["next", "tailwind", "mongo"],
+    feedback:
+      "Al desarrollar este proyecto, aprendí e incorporé varias funcionalidades que enriquecieron mi experiencia como desarrollador. Uno de los principales desafíos fue la creación de un menú de navegación dinámico, cuyas categorías se construyen a partir de los datos almacenados en la base de datos. Esto permite que, al agregar una nueva categoría, esta se muestre automáticamente en el menú tras recargar la página./n/n El menú cuenta con tres niveles jerárquicos, lo que requirió diseñar una función que identificara correctamente el nivel de cada categoría. Las categorías de primer nivel no tienen padres pero sí pueden tener hijos; las de segundo nivel tienen tanto padres como hijos; y las de tercer nivel tienen dos niveles de padres pero no poseen hijos. Esta lógica me permitió estructurar el menú de manera eficiente y escalable./n/n También aprendí a integrar MercadoPago, creando la preference que se envía al sistema con la información del pedido, y a implementar un webhook que permite recibir respuestas del servicio para mostrar mensajes de éxito o error según el resultado de la transacción./n/n Por último, incorporé el botón de carga de imágenes de Cloudinary, lo que facilitó al cliente subir y gestionar imágenes directamente desde la interfaz del panel administrativo, mejorando tanto la experiencia de usuario como el flujo de gestión de contenido.",
+    image: "/projects/fullstack/vivarium/vivarium-1.png",
+    images: [
+      "/projects/fullstack/vivarium/vivarium-1.png",
+      "/projects/fullstack/vivarium/vivarium-2.png",
+      "/projects/fullstack/vivarium/vivarium-3.png",
+      "/projects/fullstack/vivarium/vivarium-4.png",
+    ],
+  },
+  {
     id: 23,
     title: "Apex - Sporote",
     liveSiteUrl: "",
