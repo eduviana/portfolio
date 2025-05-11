@@ -29,15 +29,18 @@ const Carousel = ({ images, technologies, level }) => {
   return (
     <div className={styles.carousel}>
       <div className={styles.imageContainer}>
-        <Image
-          src={selectedImage}
-          width={800}          
-          height={500}
-          // sizes="50vw"
-          alt="Carousel"
-          className={styles.image}
-          priority
-        />
+        {/* Contenedor para animación de fade-in */}
+        <div className={styles.imageWrapper} key={selectedImage}>
+          <Image
+            src={selectedImage}
+            width={800}
+            height={500}
+            alt="Carousel"
+            className={styles.image}
+            priority
+          />
+        </div>
+
         <button className={styles.previousButton} onClick={handlePreviousImage}>
           <ArrowLeft className={styles.icon} />
         </button>
@@ -62,13 +65,13 @@ const Carousel = ({ images, technologies, level }) => {
         
       </div>
       <div className={styles.info}>
-          <div className={styles.technologies}>
-            {technologies.map((technology, index) => (
-              <Technology key={index} technology={technology} />
-            ))}
-          </div>
-          <Level level={level} />
+        <div className={styles.technologies}>
+          {technologies.map((technology, index) => (
+            <Technology key={index} technology={technology} />
+          ))}
         </div>
+        <Level level={level} />
+      </div>
     </div>
   );
 };

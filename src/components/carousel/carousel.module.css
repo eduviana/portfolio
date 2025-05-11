@@ -13,20 +13,29 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  align-items: center;
 }
 
-/* .image {
+/* Contenedor con animación fade-in */
+.imageWrapper {
+  width: 100%;
+  /* Inicia opaco en 0 para la animación */
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.image {
   width: 100%;
   height: auto;
   object-fit: contain;
   border-radius: 0.5rem;
-} */
-.image {
-  width: 1000px;
-  height: 660px;
-  object-fit: contain;
-
-  border-radius: 0.5rem;
+  max-width: 100%;
 }
 
 .previousButton,
@@ -39,11 +48,11 @@
 }
 
 .previousButton {
-  left: -38px;
+  left: -24px;
 }
 
 .nextButton {
-  right: -38px;
+  right: -24px;
 }
 
 .icon {
@@ -75,7 +84,7 @@
   height: 7rem;
   border-radius: 0.3rem;
   cursor: pointer;
-  transition: opacity, transform 350ms ease;
+  transition: opacity 350ms ease, transform 350ms ease;
 }
 
 .thumbnail:hover {
@@ -83,9 +92,11 @@
   transform: scale(1.04);
 }
 
+/* Media query para pantallas a partir de 768px */
 @media (min-width: 768px) {
-  .image {
-    /* height: auto; */
+  .previousButton,
+  .nextButton {
+    display: none;
   }
   .thumbnails {
     display: flex;
@@ -95,22 +106,23 @@
   }
 }
 
+/* Ajuste de imagenContainer en pantallas a partir de 1024px */
 @media (min-width: 1024px) {
   .imageContainer {
-    /* width: 80%; */
     margin: 0 auto;
   }
 }
 
+/* Layout especial para pantallas 1440px o mayores */
 @media (min-width: 1440px) {
   .imageContainer {
     flex-direction: row-reverse;
     gap: 4.5rem;
   }
 
-  .previousButton,
-  .nextButton {
-    display: none;
+  .image {
+    width: 1000px;
+    height: 660px;
   }
 
   .thumbnails {

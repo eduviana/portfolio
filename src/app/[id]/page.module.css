@@ -8,7 +8,7 @@
 
 .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin-bottom: 2rem;
 }
@@ -65,7 +65,7 @@
 
 @media (min-width: 768px) {
   .links {
-    justify-content: center;
+    justify-content: flex-end;
     gap: 4rem;
   }
 
@@ -80,7 +80,7 @@
   }
 
   .links {
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin-right: 8rem;
   }
 
